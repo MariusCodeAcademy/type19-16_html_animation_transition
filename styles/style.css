@@ -1,0 +1,20 @@
+.boxes {
+  border: 1px solid #000;
+  background-color: palegoldenrod;
+  display: flex;
+  padding: 30px;
+  gap: 20px;
+}
+
+.box {
+  background-color: lightcoral;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  transition: box-shadow 0.7s, background-color 1.2s, color 0.5s;
+}
+.box:hover {
+  box-shadow: 15px 15px 15px gray;
+  background-color: rgb(185, 32, 32);
+  color: white;
+}
